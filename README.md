@@ -52,6 +52,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import blockSize from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-tiling-block-size@deno/mod.js';
+```
+The previous example will load the latest bundled code from the deno branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/ndarray-base-tiling-block-size/tags). For example,
+
+```javascript
 import blockSize from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-tiling-block-size@v0.1.1-deno/mod.js';
 ```
 
@@ -96,7 +101,7 @@ The function supports the following arguments:
 import dtypes from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-dtypes@deno/mod.js';
 import cartesianPower from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-cartesian-power@deno/mod.js';
 import promoteDataTypes from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-promote-dtypes@deno/mod.js';
-import blockSize from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-tiling-block-size@v0.1.1-deno/mod.js';
+import blockSize from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-tiling-block-size@deno/mod.js';
 
 // Generate a list of input ndarray dtype triplets:
 var dt = cartesianPower( dtypes(), 3 );
