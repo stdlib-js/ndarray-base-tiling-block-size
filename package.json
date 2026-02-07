@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/ndarray-base-tiling-block-size",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Resolve a loop block size for multi-dimensional array tiled loops.",
   "license": "Apache-2.0",
   "author": {
@@ -37,17 +37,17 @@
     "url": "https://github.com/stdlib-js/stdlib/issues"
   },
   "dependencies": {
-    "@stdlib/ndarray-base-bytes-per-element": "^0.2.2",
+    "@stdlib/ndarray-base-bytes-per-element": "^0.3.0",
     "@stdlib/types": "^0.4.3"
   },
   "devDependencies": {
     "@stdlib/array-base-cartesian-power": "^0.2.2",
     "@stdlib/array-base-join": "^0.1.1",
-    "@stdlib/assert-is-positive-integer": "^0.2.2",
-    "@stdlib/dstructs-struct": "github:stdlib-js/dstructs-struct#main",
-    "@stdlib/ndarray-base-promote-dtypes": "github:stdlib-js/ndarray-base-promote-dtypes#main",
-    "@stdlib/ndarray-dtype-ctor": "github:stdlib-js/ndarray-dtype-ctor#main",
-    "@stdlib/ndarray-dtypes": "^0.3.0",
+    "@stdlib/assert-is-positive-integer": "^0.2.3",
+    "@stdlib/dstructs-struct": "^0.1.0",
+    "@stdlib/ndarray-base-promote-dtypes": "^0.1.0",
+    "@stdlib/ndarray-dtype-ctor": "^0.1.0",
+    "@stdlib/ndarray-dtypes": "^0.4.0",
     "tape": "git+https://github.com/kgryte/tape.git#fix/globby",
     "istanbul": "^0.4.1",
     "tap-min": "git+https://github.com/Planeshifter/tap-min.git",
