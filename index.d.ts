@@ -1,4 +1,4 @@
-/**
+/*
 * @license Apache-2.0
 *
 * Copyright (c) 2026 The Stdlib Authors.
@@ -16,25 +16,26 @@
 * limitations under the License.
 */
 
-'use strict';
+// TypeScript Version: 4.1
+
+/// <reference types="https://cdn.jsdelivr.net/gh/stdlib-js/types@esm/index.d.ts"/>
+
+import { ArrayLike } from '@stdlib/types/array';
+import { DataType } from '@stdlib/types/ndarray';
 
 /**
-* Resolve a loop block size for multi-dimensional array tiled loops.
+* Returns a loop block size for multi-dimensional array tiled loops.
 *
-* @module @stdlib/ndarray-base-tiling-block-size
+* @param dtypes - list of input and output ndarray data types
+* @returns block size (in units of elements)
 *
 * @example
-* var blockSize = require( '@stdlib/ndarray-base-tiling-block-size' );
-*
 * var bsize = blockSize( [ 'float64', 'float64', 'float64', 'float64' ] );
 * // returns <number>
 */
-
-// MODULES //
-
-var main = require( './main.js' );
+declare function blockSize( dtypes: ArrayLike<DataType> ): number;
 
 
 // EXPORTS //
 
-module.exports = main;
+export = blockSize;
